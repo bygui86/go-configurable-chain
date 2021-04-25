@@ -1,0 +1,10 @@
+root: step1
+steps:
+  step1:
+    type: handlerImpl1
+    next: step2
+  step2:
+    type: handlerImpl2
+    next: step3
+  step3:
+    type: handlerImpl3
